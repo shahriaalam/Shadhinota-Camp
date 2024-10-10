@@ -1,0 +1,181 @@
+
+:root{
+    --whitecolor: hsl(0,0%, 100%);
+    --rosewhite: hsl(330,100%, 98%);
+    --darkraspberry: hsl(332,51%, 32%);
+}
+
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+body{
+    font-family: "Roboto", sabs-serif;
+    background-color: var(--rosewhite);
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: var(--whitecolor);
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+/* main heading start */
+#main_image img{
+    border-radius: 15px;
+    width: 100%;
+}
+.heading_con h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    margin: 24px 0;
+}
+.heading_con p{
+   
+    font-size: 15px;
+    color: rgb(81, 80, 80);
+}
+.heading_con{
+    width: 88%;
+    margin: 0 auto;
+    text-align: justify;
+}
+/* main heading end */
+
+
+/* Preparation start */
+
+.Preparation{
+    width: 88%;
+    margin: 0 auto;
+    background-color: var(--rosewhite);
+    padding: 30px 25px;
+    border-radius: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.Preparation h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--darkraspberry);
+    padding-bottom: 18px;
+}
+
+.Preparation ul{
+    padding-left: 10%;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--darkraspberry); 
+}
+.Preparation ul li p{
+    color: #514644;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* Preparation end */
+
+/* Ingredients start */
+.Ingredients{
+    width: 88%;
+    margin: 0 auto;
+    color: #584340;
+    margin-bottom: 30px;
+}
+
+.Ingredients h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.Ingredients ul{
+    padding-left: 20px;
+}
+.Ingredients ul li{
+    padding-left: 10px;
+}
+.Ingredients ul li p{
+    color: #514644;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+/* Ingredients end */
+
+/* Instructions start */
+.Instructions{
+    width: 88%;
+    margin: 0 auto;
+    color: #584340;
+    padding: 15px 15px 0px 0px;
+    border-top: 0.5px solid #7e7978;
+    border-bottom: 0.5px solid #7e7978;
+    margin-bottom: 24px;
+}
+.Instructions h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+.Instructions ol{
+    padding-left: 20px;
+}
+.Instructions ol li{
+    padding-left: 10px;
+}
+.Instructions ol li p{
+    color: #514644;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.Instructions ol li p span{
+    font-weight: 900;
+}
+/* Instructions end */
+
+/* Nutrition start */
+.Nutrition{
+    width: 88%;
+    margin: 0 auto;
+}
+.Nutrition h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 22px;
+    font-size: 26px;
+    color: #584340;
+}
+.Nutrition p{
+    font-size: 16px;
+    color: #514644;
+}
+
+.Nutrition table{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-bottom: 1px solid #514644;
+    border-collapse: collapse;
+}
+.Nutrition table td{ 
+    font: 16px; 
+    text-align: center;
+    padding: 7px 0;
+    border-bottom: 0.7px solid #514644;
+    border-collapse: collapse;
+}
+.table_1{
+    color:#514644;
+}
+.table_2{
+    color:#832020;
+  
+}
+/* Nutrition end */
